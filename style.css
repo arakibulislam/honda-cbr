@@ -1,0 +1,21 @@
+*{
+    font-family: 'Poppins', sans-serif;
+}
+.coustom-bg{
+    background: #264653;
+}
+.text-color{
+    color: #E76F51;
+}
+.text-bg{
+    background-color: #E76F51;
+}
+.font-weight{
+    font-weight: 600;
+}
+.faq-border{
+    border: 1px solid #D5E5FB;
+}
+.coustom-radius{
+    border-radius: 20px !important;
+}
