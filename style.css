@@ -16,3 +16,54 @@
 .coustom-radius{
     border-radius: 20px !important;
 }
+/* =======================animation================= */
+.ani-img{
+    animation: image 2s linear 1 ;
+    animation-delay: 3s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+@keyframes image{
+    0%{
+        transform:translateX(500px) scale(.5) ;
+        visibility:visible;
+    }
+    100%{
+        transform:translateX(0) scale(1);
+        visibility: visible;
+    }
+}
+.ani-text{
+    animation: text 1s linear 1 ;
+    animation-delay: 1s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+
+@keyframes text{
+    0%{
+        transform: translateX(-500px)  ;
+        visibility:visible;
+    }
+    100%{
+        transform:translateX(0) ;
+        visibility: visible;
+    }
+}
+.ani-button{
+    animation: button 1s linear 1 ;
+    animation-delay: 2s;
+    visibility: hidden;
+    animation-fill-mode: forwards;
+}
+
+@keyframes button{
+    0%{
+        transform: translateX(-500px) ;
+        visibility:visible;
+    }
+    100%{
+        transform:translateX(0);
+        visibility: visible;
+    }
+}
